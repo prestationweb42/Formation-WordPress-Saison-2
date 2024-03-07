@@ -1,0 +1,29 @@
+// ***************
+// Setting Header
+// ***************
+.nav-item-13:hover > .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    transition: all 500ms ease-in-out;
+}
+
+// Nav Submenu
+// .nav-item-13:hover > .dropdown-submenu {
+//     display: flex;
+//     flex-direction: column;
+//     top: -10px;
+//     left: 158px;
+//     transition: all 500ms ease-in-out;
+// }
+
+#menu-menu-principal-1 {
+    margin-left: auto;
+}
+.dropdown-item.active {
+    background-color: var(--primary-light) !important;
+    color: var(--primary-dark) !important;
+}
+.dropdown-item:hover {
+    background-color: var(--orange) !important;
+    color: var(--primary-light) !important;
+}

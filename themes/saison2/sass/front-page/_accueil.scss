@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(0, 255, 251, 0.278);
+}
+h1 {
+    color: var(--pink);
+    background-color: $bleunuit;
+    font-family: "Merriweather", serif;
+    // font-size: 60px;
+    text-align: center;
+    margin-block-end: 50px;
+}
+.text_content {
+    // inline-size: 50%;
+    // margin-inline: auto;
+    // margin-block-end: 100px;
+    border: 1px solid #000 !important;
+}
